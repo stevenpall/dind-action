@@ -3,7 +3,7 @@
 ## Example usage
 
 ```
-- uses: ./.github/actions/dind-action
+- uses: stevenpall/action-name@master
   with:
     args: 
       - make
