@@ -3,7 +3,7 @@
 ## Example usage
 
 ```
-- uses: stevenpall/action-name@master
+- uses: stevenpall/dind-action@master
   with:
     args: 
       - make
