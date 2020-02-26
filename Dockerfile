@@ -3,11 +3,13 @@ FROM docker:stable-dind
 RUN apk update \
     && apk add --no-cache \
         bash \
+        gcc \
         git \
+        libc-dev \
+        libffi-dev \
         make \
-        python \
-        python-dev \
+        openssl-dev \
         py-pip \
-        build-base
+        python-dev
 
 RUN pip install docker-compose
